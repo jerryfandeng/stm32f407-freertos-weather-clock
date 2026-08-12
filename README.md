@@ -8,9 +8,9 @@
 ![效果图](docs/photo.jpg)
 -->
 
-<-- 视频示例：把 demo.mp4 放到 docs/ 目录后取消下面这行注释
+
 <video src="docs/demo.mp4" controls="controls" width="480"></video>
--->
+
 
 ## 功能特性
 
