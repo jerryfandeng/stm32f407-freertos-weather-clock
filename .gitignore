@@ -1,0 +1,13 @@
+# Keil MDK build artifacts
+mdk/Objects/
+mdk/Listings/
+mdk/DebugConfig/
+mdk/RTE/
+mdk/*.uvoptx
+mdk/*.uvguix.*
+mdk/*.scvd
+mdk/*.bak
+
+# Python
+__pycache__/
+*.pyc

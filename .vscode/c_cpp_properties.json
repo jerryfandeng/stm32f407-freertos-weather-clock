@@ -1,0 +1,39 @@
+{
+    "configurations": [
+        {
+            "name": "bootloader",
+            "includePath": [
+                "app/font",
+                "app",
+                "app/image",
+                "app/page",
+                "driver/rtc",
+                "driver/console",
+                "driver/aht20",
+                "driver/st7789",
+                "driver/esp_at",
+                "driver/tim_delay",
+                "firmware/cmsis/core",
+                "firmware/cmsis/device",
+                "firmware/driver/inc",
+                "third_lib/Easylogger/inc",
+                "third_lib/freertos/include",
+                "third_lib/freertos/portable",
+                "third_lib/cm_backtrace/inc"
+            ],
+            "defines": [
+                "STM32F40_41xxx",
+                "USE_STDPERIPH_DRIVER",
+                "HSE_VALUE=8000000"
+            ],
+            "compilerPath": "C:/ARM_Development_tool_chain/gcc-arm-none-eabi-10.3-2021.10/bin/arm-none-eabi-gcc.exe",
+            "intelliSenseMode": "windows-gcc-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true
+            }
+        }
+    ],
+    "version": 4
+}
