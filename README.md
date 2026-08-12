@@ -9,7 +9,7 @@
 -->
 
 
-<video src="docs/demo.mp4" controls="controls" width="480"></video>
+[<video src="docs/demo.mp4" controls="controls" width="480"></video>](https://github.com/jerryfandeng/stm32f407-freertos-weather-clock/blob/main/docs/demo.mp4)
 
 
 ## 功能特性
