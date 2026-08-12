@@ -8,7 +8,7 @@
 ![效果图](docs/photo.jpg)
 -->
 
-<!-- 视频示例：把 demo.mp4 放到 docs/ 目录后取消下面这行注释
+<-- 视频示例：把 demo.mp4 放到 docs/ 目录后取消下面这行注释
 <video src="docs/demo.mp4" controls="controls" width="480"></video>
 -->
 
@@ -174,17 +174,5 @@ my_freertos_weather_clock/
 - 日志输出：USART1，115200 8N1
 - 重新生成字库：`python tools/convert_chinese_font.py`
 
-## 使用前配置
 
-> 公开仓库上传前必读
 
-- `app/app.h` 中的 `WIFI_SSID` / `WIFI_PASSWD` 是明文个人凭据，公开上传前替换为占位符或外部配置。
-- `app/app.c` 天气 URL 中的心知天气 `key` 参数是明文 API Key，建议上传前轮换，并抽成配置。
-- `mdk/Objects/`、`mdk/Listings/`、`*.uvguix.*` 等构建产物不要提交，建议先补 `.gitignore`。
-
-## 待办 / 可改进
-
-- 实测 SPI 刷新率与初始化耗时，补充性能数据
-- 补充实物照片
-- 把 API Key / Wi-Fi 凭据抽成配置
-- welcome 页接入主流程
