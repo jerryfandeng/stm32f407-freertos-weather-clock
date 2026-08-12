@@ -8,8 +8,8 @@
 ![效果图](docs/photo.jpg)
 -->
 
-
-[<video src="docs/demo.mp4" controls="controls" width="480"></video>](https://github.com/jerryfandeng/stm32f407-freertos-weather-clock/blob/main/docs/demo.mp4)
+##效果图
+docs下
 
 
 ## 功能特性
